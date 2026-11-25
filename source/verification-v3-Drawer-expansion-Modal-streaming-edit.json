@@ -1,0 +1,17 @@
+{
+  "completedAt": "2026-11-24T17:32:49.437Z",
+  "results": [
+    {
+      "name": "Drawer expansion preserves composer geometry/focus; edits survive streaming and return",
+      "status": "passed",
+      "durationMs": 18322
+    },
+    {
+      "name": "Modal streaming edit preserves replacement text",
+      "status": "passed",
+      "durationMs": 11149
+    }
+  ],
+  "runtimeErrors": [],
+  "missingResources": []
+}

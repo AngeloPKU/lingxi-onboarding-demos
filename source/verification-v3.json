@@ -1,0 +1,63 @@
+{
+  "completedAt": "2026-11-24T17:29:26.863Z",
+  "results": [
+    {
+      "name": "Drawer full: intro → loading → home auto expansion → task → result",
+      "status": "passed",
+      "durationMs": 10184,
+      "count": 3,
+      "attachmentCount": 1,
+      "prompt": "把这份会议纪要整理成待办清单，列出负责人、截止时间和待确认项。"
+    },
+    {
+      "name": "Drawer two: intro → loading → home auto expansion → task → result",
+      "status": "passed",
+      "durationMs": 9436,
+      "count": 2,
+      "attachmentCount": 1,
+      "prompt": "把这份会议纪要整理成待办清单，列出负责人、截止时间和待确认项。"
+    },
+    {
+      "name": "Drawer one: intro → loading → home auto expansion → task → result",
+      "status": "passed",
+      "durationMs": 8864,
+      "count": 1,
+      "attachmentCount": 1,
+      "prompt": "把这份会议纪要整理成待办清单，列出负责人、截止时间和待确认项。"
+    },
+    {
+      "name": "Drawer none: intro → loading → home auto expansion → task → result",
+      "status": "passed",
+      "durationMs": 9085,
+      "count": 1,
+      "attachmentCount": 3,
+      "prompt": "对比这三份供应商报价，整理含税总价、交付周期、保修和付款条件，标出价格差异与需要注意的条款。"
+    },
+    {
+      "name": "Drawer error: intro → loading → home auto expansion → task → result",
+      "status": "passed",
+      "durationMs": 9047,
+      "count": 1,
+      "attachmentCount": 3,
+      "prompt": "对比这三份供应商报价，整理含税总价、交付周期、保修和付款条件，标出价格差异与需要注意的条款。"
+    },
+    {
+      "name": "Drawer close during intro: remains on home with collapsed drawer",
+      "status": "passed",
+      "durationMs": 9088
+    },
+    {
+      "name": "Drawer close during loading: remains on home with collapsed drawer",
+      "status": "passed",
+      "durationMs": 10312
+    },
+    {
+      "name": "Drawer expansion preserves composer geometry/focus; edits survive streaming and return",
+      "status": "failed",
+      "durationMs": 6199,
+      "error": "Opening drawer must not move or resize composer\n+ actual - expected\n\n  {\n    height: 155,\n    width: 850,\n    x: 339,\n+   y: 219.59375\n-   y: 222.59375\n  }\n"
+    }
+  ],
+  "runtimeErrors": [],
+  "missingResources": []
+}

@@ -1,0 +1,12 @@
+{
+  "completedAt": "2026-11-25T03:41:19.629Z",
+  "results": [
+    {
+      "name": "Immediate task completes while guide remains expanded",
+      "status": "passed",
+      "durationMs": 9359
+    }
+  ],
+  "runtimeErrors": [],
+  "missingResources": []
+}

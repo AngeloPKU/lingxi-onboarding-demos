@@ -1,0 +1,161 @@
+{
+  "completedAt": "2026-11-25T03:41:05.464Z",
+  "results": [
+    {
+      "name": "Guide first entry shows five tasks; closing returns to home",
+      "status": "passed",
+      "durationMs": 4687,
+      "labels": [
+        "汇总上周工作进展，整理每周工作总结每周一 09:30·依据工作进展文档 · 当前使用示例资料·每周一份工作总结，包含进展、问题与下一步。",
+        "整理本周反馈，更新待跟进问题清单每周五 17:00·依据反馈记录 · 当前使用示例资料·一份按问题归类的反馈摘要和待跟进清单。",
+        "把一份工作文档整理成清晰的汇报附《项目进展》（示例）·结构清晰的项目汇报，可继续修改或用于汇报。",
+        "分析一份表格，找出主要变化和待核实项附《区域销售记录》（示例）·区域对比表、主要变化和需要进一步核实的问题。",
+        "为下一场会议准备议程和待确认事项来自日程与相关文档 · 当前使用示例资料·会议议程、待确认事项和会前准备清单。"
+      ]
+    },
+    {
+      "name": "Guide task 1: launch and complete its intended flow",
+      "status": "passed",
+      "durationMs": 6322,
+      "kind": "scheduled",
+      "prompt": "每周一 09:30，汇总上周工作进展，整理已完成事项、待处理问题和本周计划。先让我确认执行时间和资料范围。\nW\n项目进展_示例.docx\n示例"
+    },
+    {
+      "name": "Guide task 2: launch and complete its intended flow",
+      "status": "passed",
+      "durationMs": 6191,
+      "kind": "scheduled",
+      "prompt": "每周五 17:00，整理本周新增反馈，按问题归类，汇总重复意见和待跟进事项。先让我确认执行时间和资料范围。\nS\n试用反馈_示例.csv\n示例"
+    },
+    {
+      "name": "Guide task 3: launch and complete its intended flow",
+      "status": "passed",
+      "durationMs": 8349,
+      "kind": "immediate",
+      "prompt": "把所附工作文档整理成一份简洁的项目汇报，分为阶段成果、当前问题和下一步计划，缺少的信息标注待确认。\nW\n项目进展_示例.docx\n示例"
+    },
+    {
+      "name": "Guide task 4: launch and complete its intended flow",
+      "status": "passed",
+      "durationMs": 8347,
+      "kind": "immediate",
+      "prompt": "分析所附区域销售表，比较本周与上周的销售额，算出各区域增减和整体变化，把不能由数据解释的问题单独列出。\nS\n区域销售记录_示例.csv\n示例"
+    },
+    {
+      "name": "Guide task 5: launch and complete its intended flow",
+      "status": "passed",
+      "durationMs": 7500,
+      "kind": "immediate",
+      "prompt": "结合所附项目周会日程和进展文档，准备 30 分钟会议议程，列出需要确认的事项，以及会前需要准备的内容。\nW\n项目周会日程_示例.ics\n示例\nW\n项目进展_示例.docx\n示例"
+    },
+    {
+      "name": "Guide mini dismiss closes only the guide while immediate execution completes",
+      "status": "passed",
+      "durationMs": 8383
+    },
+    {
+      "name": "Guide expand and collapse preserve conversation, draft and running progress",
+      "status": "passed",
+      "durationMs": 9263
+    },
+    {
+      "name": "Schedule configuration survives guide expand, close and mini dismissal before confirmation",
+      "status": "passed",
+      "durationMs": 6884
+    },
+    {
+      "name": "Guide close during intro prevents later reappearance",
+      "status": "passed",
+      "durationMs": 5688
+    },
+    {
+      "name": "Guide close during loading prevents later reappearance",
+      "status": "passed",
+      "durationMs": 6867
+    },
+    {
+      "name": "Guide large and mini layouts fit 1280×800",
+      "status": "passed",
+      "durationMs": 5773,
+      "large": {
+        "x": 155,
+        "y": 88.75,
+        "right": 1125,
+        "bottom": 749.25,
+        "width": 970,
+        "height": 660.5,
+        "clientHeight": 661,
+        "scrollHeight": 661,
+        "viewportWidth": 1280,
+        "viewportHeight": 800,
+        "pageWidth": 1280
+      },
+      "mini": {
+        "x": 16,
+        "y": 566,
+        "right": 232,
+        "bottom": 782,
+        "width": 216,
+        "height": 216,
+        "clientHeight": 214,
+        "scrollHeight": 216,
+        "viewportWidth": 1280,
+        "viewportHeight": 800,
+        "pageWidth": 1280
+      }
+    },
+    {
+      "name": "Guide large and mini layouts fit 1440×900",
+      "status": "passed",
+      "durationMs": 5825,
+      "large": {
+        "x": 235,
+        "y": 110.75,
+        "right": 1205,
+        "bottom": 827.25,
+        "width": 970,
+        "height": 716.5,
+        "clientHeight": 717,
+        "scrollHeight": 717,
+        "viewportWidth": 1440,
+        "viewportHeight": 900,
+        "pageWidth": 1440
+      },
+      "mini": {
+        "x": 16,
+        "y": 666,
+        "right": 232,
+        "bottom": 882,
+        "width": 216,
+        "height": 216,
+        "clientHeight": 214,
+        "scrollHeight": 216,
+        "viewportWidth": 1440,
+        "viewportHeight": 900,
+        "pageWidth": 1440
+      }
+    },
+    {
+      "name": "Existing demo 1: smoke plus working fifth navigation entry",
+      "status": "passed",
+      "durationMs": 8531
+    },
+    {
+      "name": "Existing demo 2: smoke plus working fifth navigation entry",
+      "status": "passed",
+      "durationMs": 8327
+    },
+    {
+      "name": "Existing demo 3: smoke plus working fifth navigation entry",
+      "status": "passed",
+      "durationMs": 9028
+    },
+    {
+      "name": "Existing demo 4: smoke plus working fifth navigation entry",
+      "status": "passed",
+      "durationMs": 5942
+    }
+  ],
+  "runtimeErrors": [],
+  "missingResources": []
+}

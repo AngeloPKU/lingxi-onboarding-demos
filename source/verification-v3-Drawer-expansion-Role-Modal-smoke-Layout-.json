@@ -1,0 +1,13 @@
+{
+  "completedAt": "2026-11-24T17:30:11.818Z",
+  "results": [
+    {
+      "name": "Drawer expansion preserves composer geometry/focus; edits survive streaming and return",
+      "status": "failed",
+      "durationMs": 18149,
+      "error": "Streaming must not replace manual edits\n+ actual - expected\n\n+ '把这份会议纪要整理成待办清单，列只整理负责人和截止时间。'\n- '只整理负责人和截止时间。'\n"
+    }
+  ],
+  "runtimeErrors": [],
+  "missingResources": []
+}

@@ -1,0 +1,454 @@
+{
+  "completedAt": "2026-11-24T16:26:57.549Z",
+  "results": [
+    {
+      "name": "three: full recommendations → conversation → result",
+      "status": "passed",
+      "durationMs": 9687,
+      "count": 3,
+      "attachmentCount": 1
+    },
+    {
+      "name": "three: two recommendations → conversation → result",
+      "status": "passed",
+      "durationMs": 8871,
+      "count": 2,
+      "attachmentCount": 1
+    },
+    {
+      "name": "three: one recommendations → conversation → result",
+      "status": "passed",
+      "durationMs": 8334,
+      "count": 1,
+      "attachmentCount": 1
+    },
+    {
+      "name": "three: none recommendations → conversation → result",
+      "status": "passed",
+      "durationMs": 8570,
+      "count": 1,
+      "attachmentCount": 3
+    },
+    {
+      "name": "three: error recommendations → conversation → result",
+      "status": "passed",
+      "durationMs": 8510,
+      "count": 1,
+      "attachmentCount": 3
+    },
+    {
+      "name": "single: full recommendations → conversation → result",
+      "status": "passed",
+      "durationMs": 8381,
+      "count": 1,
+      "attachmentCount": 1
+    },
+    {
+      "name": "single: two recommendations → conversation → result",
+      "status": "passed",
+      "durationMs": 8335,
+      "count": 1,
+      "attachmentCount": 1
+    },
+    {
+      "name": "single: one recommendations → conversation → result",
+      "status": "passed",
+      "durationMs": 8282,
+      "count": 1,
+      "attachmentCount": 1
+    },
+    {
+      "name": "single: none recommendations → conversation → result",
+      "status": "passed",
+      "durationMs": 8515,
+      "count": 1,
+      "attachmentCount": 3
+    },
+    {
+      "name": "single: error recommendations → conversation → result",
+      "status": "passed",
+      "durationMs": 8472,
+      "count": 1,
+      "attachmentCount": 3
+    },
+    {
+      "name": "drawer: full recommendations → conversation → result",
+      "status": "passed",
+      "durationMs": 7357,
+      "count": 3,
+      "attachmentCount": 1
+    },
+    {
+      "name": "drawer: two recommendations → conversation → result",
+      "status": "passed",
+      "durationMs": 6655,
+      "count": 2,
+      "attachmentCount": 1
+    },
+    {
+      "name": "drawer: one recommendations → conversation → result",
+      "status": "passed",
+      "durationMs": 6159,
+      "count": 1,
+      "attachmentCount": 1
+    },
+    {
+      "name": "drawer: none recommendations → conversation → result",
+      "status": "passed",
+      "durationMs": 6375,
+      "count": 1,
+      "attachmentCount": 3
+    },
+    {
+      "name": "drawer: error recommendations → conversation → result",
+      "status": "passed",
+      "durationMs": 6380,
+      "count": 1,
+      "attachmentCount": 3
+    },
+    {
+      "name": "role: full recommendations → conversation → result",
+      "status": "passed",
+      "durationMs": 7181,
+      "count": 3,
+      "attachmentCount": 1
+    },
+    {
+      "name": "role: none recommendations → conversation → result",
+      "status": "passed",
+      "durationMs": 5785,
+      "count": 1,
+      "attachmentCount": 3
+    },
+    {
+      "name": "Streaming generation preserves user edits, empty prompt disables start, and back retains edits",
+      "status": "passed",
+      "durationMs": 11326
+    },
+    {
+      "name": "Closing while loading prevents background reappearance",
+      "status": "passed",
+      "durationMs": 5823
+    },
+    {
+      "name": "Drawer stays attached, keeps composer geometry/input/focus, and collapses/reopens",
+      "status": "passed",
+      "durationMs": 7457
+    },
+    {
+      "name": "Role selection changes catalog and skipping still offers generic tasks",
+      "status": "passed",
+      "durationMs": 9245
+    },
+    {
+      "name": "three: full layout at 1280×800",
+      "status": "passed",
+      "durationMs": 534,
+      "documentWidth": 1280,
+      "actions": [
+        {
+          "top": 307,
+          "bottom": 340,
+          "right": 1081
+        },
+        {
+          "top": 446.0021667480469,
+          "bottom": 479.0021667480469,
+          "right": 1081
+        },
+        {
+          "top": 585.0519409179688,
+          "bottom": 618.0519409179688,
+          "right": 1081
+        }
+      ],
+      "dialog": {
+        "height": 618,
+        "scrollHeight": 618
+      }
+    },
+    {
+      "name": "three: none layout at 1280×800",
+      "status": "passed",
+      "durationMs": 522,
+      "documentWidth": 1280,
+      "actions": [
+        {
+          "top": 597,
+          "bottom": 643,
+          "right": 977
+        }
+      ],
+      "dialog": {
+        "height": 580,
+        "scrollHeight": 580
+      }
+    },
+    {
+      "name": "single: full layout at 1280×800",
+      "status": "passed",
+      "durationMs": 522,
+      "documentWidth": 1280,
+      "actions": [
+        {
+          "top": 597,
+          "bottom": 643,
+          "right": 977
+        }
+      ],
+      "dialog": {
+        "height": 580,
+        "scrollHeight": 580
+      }
+    },
+    {
+      "name": "single: none layout at 1280×800",
+      "status": "passed",
+      "durationMs": 519,
+      "documentWidth": 1280,
+      "actions": [
+        {
+          "top": 597,
+          "bottom": 643,
+          "right": 977
+        }
+      ],
+      "dialog": {
+        "height": 580,
+        "scrollHeight": 580
+      }
+    },
+    {
+      "name": "drawer: full layout at 1280×800",
+      "status": "passed",
+      "durationMs": 521,
+      "documentWidth": 1280,
+      "actions": [
+        {
+          "top": 439.5,
+          "bottom": 469.5,
+          "right": 1184
+        },
+        {
+          "top": 529.5,
+          "bottom": 559.5,
+          "right": 1184
+        },
+        {
+          "top": 619.5,
+          "bottom": 649.5,
+          "right": 1184
+        }
+      ],
+      "dialog": null
+    },
+    {
+      "name": "drawer: none layout at 1280×800",
+      "status": "passed",
+      "durationMs": 541,
+      "documentWidth": 1280,
+      "actions": [
+        {
+          "top": 467.5,
+          "bottom": 497.5,
+          "right": 1184
+        }
+      ],
+      "dialog": null
+    },
+    {
+      "name": "role: full layout at 1280×800",
+      "status": "passed",
+      "durationMs": 554,
+      "documentWidth": 1280,
+      "actions": [
+        {
+          "top": 588,
+          "bottom": 621,
+          "right": 581
+        },
+        {
+          "top": 588.0140380859375,
+          "bottom": 621.0140380859375,
+          "right": 896
+        },
+        {
+          "top": 588.169677734375,
+          "bottom": 621.169677734375,
+          "right": 1211
+        }
+      ],
+      "dialog": null
+    },
+    {
+      "name": "role: none layout at 1280×800",
+      "status": "passed",
+      "durationMs": 528,
+      "documentWidth": 1280,
+      "actions": [
+        {
+          "top": 496,
+          "bottom": 535,
+          "right": 1203
+        }
+      ],
+      "dialog": null
+    },
+    {
+      "name": "three: full layout at 1440×900",
+      "status": "passed",
+      "durationMs": 521,
+      "documentWidth": 1440,
+      "actions": [
+        {
+          "top": 357,
+          "bottom": 390,
+          "right": 1161
+        },
+        {
+          "top": 496.002197265625,
+          "bottom": 529.002197265625,
+          "right": 1161
+        },
+        {
+          "top": 635.052001953125,
+          "bottom": 668.052001953125,
+          "right": 1161
+        }
+      ],
+      "dialog": {
+        "height": 618,
+        "scrollHeight": 618
+      }
+    },
+    {
+      "name": "three: none layout at 1440×900",
+      "status": "passed",
+      "durationMs": 520,
+      "documentWidth": 1440,
+      "actions": [
+        {
+          "top": 657,
+          "bottom": 703,
+          "right": 1057
+        }
+      ],
+      "dialog": {
+        "height": 600,
+        "scrollHeight": 600
+      }
+    },
+    {
+      "name": "single: full layout at 1440×900",
+      "status": "passed",
+      "durationMs": 524,
+      "documentWidth": 1440,
+      "actions": [
+        {
+          "top": 657,
+          "bottom": 703,
+          "right": 1057
+        }
+      ],
+      "dialog": {
+        "height": 600,
+        "scrollHeight": 600
+      }
+    },
+    {
+      "name": "single: none layout at 1440×900",
+      "status": "passed",
+      "durationMs": 518,
+      "documentWidth": 1440,
+      "actions": [
+        {
+          "top": 657,
+          "bottom": 703,
+          "right": 1057
+        }
+      ],
+      "dialog": {
+        "height": 600,
+        "scrollHeight": 600
+      }
+    },
+    {
+      "name": "drawer: full layout at 1440×900",
+      "status": "passed",
+      "durationMs": 520,
+      "documentWidth": 1440,
+      "actions": [
+        {
+          "top": 492.5,
+          "bottom": 522.5,
+          "right": 1264
+        },
+        {
+          "top": 582.5,
+          "bottom": 612.5,
+          "right": 1264
+        },
+        {
+          "top": 672.5,
+          "bottom": 702.5,
+          "right": 1264
+        }
+      ],
+      "dialog": null
+    },
+    {
+      "name": "drawer: none layout at 1440×900",
+      "status": "passed",
+      "durationMs": 539,
+      "documentWidth": 1440,
+      "actions": [
+        {
+          "top": 520.5,
+          "bottom": 550.5,
+          "right": 1264
+        }
+      ],
+      "dialog": null
+    },
+    {
+      "name": "role: full layout at 1440×900",
+      "status": "passed",
+      "durationMs": 537,
+      "documentWidth": 1440,
+      "actions": [
+        {
+          "top": 648.5,
+          "bottom": 681.5,
+          "right": 661
+        },
+        {
+          "top": 648.5142822265625,
+          "bottom": 681.5142822265625,
+          "right": 976
+        },
+        {
+          "top": 648.671142578125,
+          "bottom": 681.671142578125,
+          "right": 1291
+        }
+      ],
+      "dialog": null
+    },
+    {
+      "name": "role: none layout at 1440×900",
+      "status": "passed",
+      "durationMs": 532,
+      "documentWidth": 1440,
+      "actions": [
+        {
+          "top": 532.5,
+          "bottom": 571.5,
+          "right": 1283
+        }
+      ],
+      "dialog": null
+    }
+  ],
+  "runtimeErrors": [],
+  "missingResources": []
+}

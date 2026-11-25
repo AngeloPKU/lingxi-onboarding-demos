@@ -1,0 +1,21 @@
+{
+  "completedAt": "2026-11-24T16:28:23.421Z",
+  "results": [
+    {
+      "name": "Selected product role: none falls back to executable sample task",
+      "status": "passed",
+      "durationMs": 5924,
+      "selectedRole": "product",
+      "attachmentCount": 3
+    },
+    {
+      "name": "Selected product role: error falls back to executable sample task",
+      "status": "passed",
+      "durationMs": 5820,
+      "selectedRole": "product",
+      "attachmentCount": 3
+    }
+  ],
+  "runtimeErrors": [],
+  "missingResources": []
+}

@@ -1,0 +1,332 @@
+{
+  "date": "2026-11-25",
+  "results": [
+    {
+      "name": "Drawer full: intro → loading → home auto expansion → task → result",
+      "status": "passed",
+      "durationMs": 10184,
+      "count": 3,
+      "attachmentCount": 1,
+      "prompt": "把这份会议纪要整理成待办清单，列出负责人、截止时间和待确认项。"
+    },
+    {
+      "name": "Drawer two: intro → loading → home auto expansion → task → result",
+      "status": "passed",
+      "durationMs": 9436,
+      "count": 2,
+      "attachmentCount": 1,
+      "prompt": "把这份会议纪要整理成待办清单，列出负责人、截止时间和待确认项。"
+    },
+    {
+      "name": "Drawer one: intro → loading → home auto expansion → task → result",
+      "status": "passed",
+      "durationMs": 8864,
+      "count": 1,
+      "attachmentCount": 1,
+      "prompt": "把这份会议纪要整理成待办清单，列出负责人、截止时间和待确认项。"
+    },
+    {
+      "name": "Drawer none: intro → loading → home auto expansion → task → result",
+      "status": "passed",
+      "durationMs": 9085,
+      "count": 1,
+      "attachmentCount": 3,
+      "prompt": "对比这三份供应商报价，整理含税总价、交付周期、保修和付款条件，标出价格差异与需要注意的条款。"
+    },
+    {
+      "name": "Drawer error: intro → loading → home auto expansion → task → result",
+      "status": "passed",
+      "durationMs": 9047,
+      "count": 1,
+      "attachmentCount": 3,
+      "prompt": "对比这三份供应商报价，整理含税总价、交付周期、保修和付款条件，标出价格差异与需要注意的条款。"
+    },
+    {
+      "name": "Drawer close during intro: remains on home with collapsed drawer",
+      "status": "passed",
+      "durationMs": 9088
+    },
+    {
+      "name": "Drawer close during loading: remains on home with collapsed drawer",
+      "status": "passed",
+      "durationMs": 10312
+    },
+    {
+      "name": "Drawer expansion preserves composer geometry/focus; edits survive streaming and return",
+      "status": "passed",
+      "durationMs": 18322
+    },
+    {
+      "name": "Role full: selected role → plain rows → attachment-free conversation",
+      "status": "passed",
+      "durationMs": 6063,
+      "count": 3,
+      "attachmentCount": 0,
+      "prompt": "为办公效率工具设计 30 分钟的新用户访谈，重点了解首次使用的阻碍，列出问题和追问。"
+    },
+    {
+      "name": "Role two: selected role → plain rows → attachment-free conversation",
+      "status": "passed",
+      "durationMs": 5920,
+      "count": 2,
+      "attachmentCount": 0,
+      "prompt": "为办公效率工具设计 30 分钟的新用户访谈，重点了解首次使用的阻碍，列出问题和追问。"
+    },
+    {
+      "name": "Role one: selected role → plain rows → attachment-free conversation",
+      "status": "passed",
+      "durationMs": 5900,
+      "count": 1,
+      "attachmentCount": 0,
+      "prompt": "为办公效率工具设计 30 分钟的新用户访谈，重点了解首次使用的阻碍，列出问题和追问。"
+    },
+    {
+      "name": "Role none: selected role → plain rows → attachment-free conversation",
+      "status": "passed",
+      "durationMs": 5916,
+      "count": 3,
+      "attachmentCount": 0,
+      "prompt": "为一个 6 人项目组安排 30 分钟周会，写出议程、每个环节的时长和主持人提问。"
+    },
+    {
+      "name": "Role error: selected role → plain rows → attachment-free conversation",
+      "status": "passed",
+      "durationMs": 5898,
+      "count": 3,
+      "attachmentCount": 0,
+      "prompt": "为一个 6 人项目组安排 30 分钟周会，写出议程、每个环节的时长和主持人提问。"
+    },
+    {
+      "name": "Role skip produces three generic tasks; each row launches without attachments",
+      "status": "passed",
+      "durationMs": 13684
+    },
+    {
+      "name": "Role can change from product to student and retain attachment-free prompts",
+      "status": "passed",
+      "durationMs": 6157
+    },
+    {
+      "name": "Modal smoke three/full: introduction → recommendation → result",
+      "status": "passed",
+      "durationMs": 9561,
+      "attachmentCount": 1,
+      "prompt": "把这份会议纪要整理成待办清单，列出负责人、截止时间和待确认项。"
+    },
+    {
+      "name": "Modal smoke three/none: introduction → recommendation → result",
+      "status": "passed",
+      "durationMs": 8538,
+      "attachmentCount": 3,
+      "prompt": "对比这三份供应商报价，整理含税总价、交付周期、保修和付款条件，标出价格差异与需要注意的条款。"
+    },
+    {
+      "name": "Modal smoke single/full: introduction → recommendation → result",
+      "status": "passed",
+      "durationMs": 8331,
+      "attachmentCount": 1,
+      "prompt": "把这份会议纪要整理成待办清单，列出负责人、截止时间和待确认项。"
+    },
+    {
+      "name": "Modal smoke single/none: introduction → recommendation → result",
+      "status": "passed",
+      "durationMs": 8087,
+      "attachmentCount": 3,
+      "prompt": "对比这三份供应商报价，整理含税总价、交付周期、保修和付款条件，标出价格差异与需要注意的条款。"
+    },
+    {
+      "name": "Layout drawer/full at 1280×800",
+      "status": "passed",
+      "durationMs": 1040,
+      "width": 1280,
+      "viewport": 1280,
+      "height": 800,
+      "rows": [
+        {
+          "x": 359,
+          "y": 418.59375,
+          "width": 810,
+          "height": 64,
+          "radius": 6,
+          "bottom": 482.59375
+        },
+        {
+          "x": 359,
+          "y": 482.59375,
+          "width": 810,
+          "height": 64,
+          "radius": 6,
+          "bottom": 546.59375
+        },
+        {
+          "x": 359,
+          "y": 546.59375,
+          "width": 810,
+          "height": 64,
+          "radius": 6,
+          "bottom": 610.59375
+        }
+      ],
+      "actions": [
+        {
+          "x": 1139,
+          "right": 1163,
+          "top": 439.09375,
+          "bottom": 463.09375
+        },
+        {
+          "x": 1139,
+          "right": 1163,
+          "top": 503.09375,
+          "bottom": 527.09375
+        },
+        {
+          "x": 1139,
+          "right": 1163,
+          "top": 567.09375,
+          "bottom": 591.09375
+        }
+      ]
+    },
+    {
+      "name": "Layout drawer/none at 1280×800",
+      "status": "passed",
+      "durationMs": 1036,
+      "width": 1280,
+      "viewport": 1280,
+      "height": 800,
+      "rows": [
+        {
+          "x": 359,
+          "y": 442.59375,
+          "width": 810,
+          "height": 64,
+          "radius": 6,
+          "bottom": 506.59375
+        }
+      ],
+      "actions": [
+        {
+          "x": 1139,
+          "right": 1163,
+          "top": 463.09375,
+          "bottom": 487.09375
+        }
+      ]
+    },
+    {
+      "name": "Layout role/full at 1280×800",
+      "status": "passed",
+      "durationMs": 1034,
+      "width": 1280,
+      "viewport": 1280,
+      "height": 800,
+      "rows": [
+        {
+          "x": 350,
+          "y": 476.09375,
+          "width": 828,
+          "height": 51,
+          "radius": 6,
+          "bottom": 527.09375
+        },
+        {
+          "x": 350,
+          "y": 527.09375,
+          "width": 828,
+          "height": 51,
+          "radius": 6,
+          "bottom": 578.09375
+        },
+        {
+          "x": 350,
+          "y": 578.09375,
+          "width": 828,
+          "height": 51,
+          "radius": 6,
+          "bottom": 629.09375
+        }
+      ],
+      "actions": [
+        {
+          "x": 350,
+          "right": 1178,
+          "top": 476.09375,
+          "bottom": 527.09375
+        },
+        {
+          "x": 350,
+          "right": 1178,
+          "top": 527.09375,
+          "bottom": 578.09375
+        },
+        {
+          "x": 350,
+          "right": 1178,
+          "top": 578.09375,
+          "bottom": 629.09375
+        }
+      ]
+    },
+    {
+      "name": "Layout role/none at 1280×800",
+      "status": "passed",
+      "durationMs": 1040,
+      "width": 1280,
+      "viewport": 1280,
+      "height": 800,
+      "rows": [
+        {
+          "x": 350,
+          "y": 476.09375,
+          "width": 828,
+          "height": 51,
+          "radius": 6,
+          "bottom": 527.09375
+        },
+        {
+          "x": 350,
+          "y": 527.09375,
+          "width": 828,
+          "height": 51,
+          "radius": 6,
+          "bottom": 578.09375
+        },
+        {
+          "x": 350,
+          "y": 578.09375,
+          "width": 828,
+          "height": 51,
+          "radius": 6,
+          "bottom": 629.09375
+        }
+      ],
+      "actions": [
+        {
+          "x": 350,
+          "right": 1178,
+          "top": 476.09375,
+          "bottom": 527.09375
+        },
+        {
+          "x": 350,
+          "right": 1178,
+          "top": 527.09375,
+          "bottom": 578.09375
+        },
+        {
+          "x": 350,
+          "right": 1178,
+          "top": 578.09375,
+          "bottom": 629.09375
+        }
+      ]
+    },
+    {
+      "name": "Modal streaming edit preserves replacement text",
+      "status": "passed",
+      "durationMs": 11149
+    }
+  ],
+  "allPassed": true
+}

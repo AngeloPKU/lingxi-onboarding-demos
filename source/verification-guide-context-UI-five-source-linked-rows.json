@@ -1,0 +1,12 @@
+{
+  "completedAt": "2026-11-25T03:49:39.787Z",
+  "results": [
+    {
+      "name": "UI: five source-linked rows remain while explanatory clutter is removed",
+      "status": "passed",
+      "durationMs": 4411
+    }
+  ],
+  "runtimeErrors": [],
+  "missingResources": []
+}

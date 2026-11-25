@@ -1,0 +1,132 @@
+{
+  "completedAt": "2026-11-25T03:49:27.534Z",
+  "results": [
+    {
+      "name": "Data: normal contexts produce two scheduled and three immediate source-backed tasks",
+      "status": "passed",
+      "durationMs": 34,
+      "contexts": 5,
+      "tasks": 5
+    },
+    {
+      "name": "Data: removing presentation context removes the PPT recommendation",
+      "status": "passed",
+      "durationMs": 2
+    },
+    {
+      "name": "Data: renaming a file updates task files and prompt; missing related document suppresses meeting task",
+      "status": "passed",
+      "durationMs": 2
+    },
+    {
+      "name": "UI: five source-linked rows remain while explanatory clutter is removed",
+      "status": "passed",
+      "durationMs": 4543
+    },
+    {
+      "name": "UI: all five recommendations launch with their same materials and mini guide",
+      "status": "passed",
+      "durationMs": 10734
+    },
+    {
+      "name": "UI: changing context filename updates recommendation and launched attachment",
+      "status": "passed",
+      "durationMs": 5049
+    },
+    {
+      "name": "UI: missing PPT never claims the original file; any replacement is clearly a sample",
+      "status": "passed",
+      "durationMs": 4335
+    },
+    {
+      "name": "Fallback none: executable tasks with clearly identified sample materials",
+      "status": "passed",
+      "durationMs": 8508
+    },
+    {
+      "name": "Fallback error: executable tasks with clearly identified sample materials",
+      "status": "passed",
+      "durationMs": 8384
+    },
+    {
+      "name": "Layout: source-linked guide fits 1280×800",
+      "status": "passed",
+      "durationMs": 4283,
+      "x": 190,
+      "y": 117.5,
+      "right": 1090,
+      "bottom": 720.5,
+      "width": 1280,
+      "height": 800,
+      "pageWidth": 1280,
+      "rows": [
+        {
+          "top": 259.5,
+          "bottom": 331.5,
+          "right": 1066
+        },
+        {
+          "top": 331.5,
+          "bottom": 403.5,
+          "right": 1066
+        },
+        {
+          "top": 446.5,
+          "bottom": 518.5,
+          "right": 1066
+        },
+        {
+          "top": 518.5,
+          "bottom": 590.5,
+          "right": 1066
+        },
+        {
+          "top": 590.5,
+          "bottom": 662.5,
+          "right": 1066
+        }
+      ]
+    },
+    {
+      "name": "Layout: source-linked guide fits 1440×900",
+      "status": "passed",
+      "durationMs": 4312,
+      "x": 270,
+      "y": 139.5,
+      "right": 1170,
+      "bottom": 798.5,
+      "width": 1440,
+      "height": 900,
+      "pageWidth": 1440,
+      "rows": [
+        {
+          "top": 298.5,
+          "bottom": 375.5,
+          "right": 1142
+        },
+        {
+          "top": 375.5,
+          "bottom": 452.5,
+          "right": 1142
+        },
+        {
+          "top": 499.5,
+          "bottom": 576.5,
+          "right": 1142
+        },
+        {
+          "top": 576.5,
+          "bottom": 653.5,
+          "right": 1142
+        },
+        {
+          "top": 653.5,
+          "bottom": 730.5,
+          "right": 1142
+        }
+      ]
+    }
+  ],
+  "runtimeErrors": [],
+  "missingResources": []
+}
